@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="be9c-a092-409c-189e" name="test" battleScribeVersion="2.02" gameSystemId="28ec-711c-d87f-3aeb" gameSystemName="Warhammer 40,000 8th Edition" gameSystemRevision="100" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name=" PL" typeId="e356-c769-5920-6e14" value="22.0"/>
+    <cost name="pts" typeId="points" value="225.0"/>
+  </costs>
+  <forces>
+    <force id="a632-8fe8-4d73-87f4" name="Battalion Detachment +5CP" entryId="564e-55d5-79bc-a4d7" catalogueId="ebe8-544e-1fe8-fcde" catalogueRevision="55" catalogueName="Imperium - Adeptus Mechanicus">
+      <selections>
+        <selection id="9bf3-e894-e578-2b35" name="Forge World Choice" entryId="4fdc-b9a7-3fe7-9e84::0dbb-e7cd-4b8e-92aa" number="1" type="upgrade">
+          <selections>
+            <selection id="eb31-7342-4e77-71c0" name="Forge World: Mars" entryId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::a629-aac7-aa2d-ddfd::bde4-e5f7-024d-78a4" entryGroupId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::8f3b-b73c-bc99-e19a" number="1" type="upgrade">
+              <selections>
+                <selection id="0c1f-0870-d400-36c1" name="Dogma: Glory to the Omnissiah" entryId="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::a629-aac7-aa2d-ddfd::6dd5-086d-7e89-2768::e169-b4a0-6cbb-a134" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="4fdc-b9a7-3fe7-9e84::1202-78d3-2c86-8c31::a629-aac7-aa2d-ddfd::6dd5-086d-7e89-2768::eb91-0bdb-c7a7-741a" name="Glory to the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="63a5-ad0e-43c1-d2f0" typeName="Forge World Dogma">
+                      <characteristics>
+                        <characteristic name="Description" typeId="44d2-8832-413f-95fe">Each time you randomly determine which Canticle of the Omnissiah iis being canted, roll two dice instead of one. All units with this dogma receive the benefit of both results, instead of just the result of the first dice (if a duplicate is rolled, no additional Canticle is canted this turn).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="babe-2ced-7a5c-c661" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="56bb-1a1f-c60a-5f35" name="Tech-Priest Dominus" entryId="fb5a-2f31-b730-9b32::0895-13ad-3ba1-0952" publicationId="ebe8-544e-pubN93714" page="74" number="1" type="unit">
+          <rules>
+            <rule id="fb5a-2f31-b730-9b32::3ed8-9fd5-bb75-5d65::ad49-5c00-b6ea-2ac7" name="Canticles of the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false">
+              <description>All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
+
+At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
+
+Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table below. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.
+
+If you have a Battle-forged army, units only receive the bonus if every model in their Detachment has this ability.
+
+1. Incantation of the Iron Soul:
+You can re-roll failed Morale tests for affected units.
+
+2. Litany of the Electromancer:
+Roll a D6 for each enemy unit that is within 1&quot; of any affected units; on a roll of 6, the unit being rolled for suffers D3 mortal wounds.   
+
+3. Chant of the Remorseless Fist:
+You can re-roll any failed hit rolls of 1 for affected units in the Fight phase.   
+
+4. Shroudpsalm:
+Affected units gain the bonus to their armour saving throws as if they were in cover. Units already in cover are unaffected. 
+
+5. Invocation of Machine Might:
+Affected units have +1 Strength. 
+
+6. Benediction of the Omnissiah:
+You can re-roll failed hit rolls of 1 for affected units in the shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="fb5a-2f31-b730-9b32::98b9-3c6b-d02a-f8d1" name="Tech-Priest Dominus" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">2+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb5a-2f31-b730-9b32::b005-21b2-f6b4-5387" name="Lord of the Machine Cult" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls of 1 in the Shooting phase for friendly &lt;FORGE WORLD&gt; units within 6&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb5a-2f31-b730-9b32::c0c4-a119-9fe4-401f" name="Masterwork Bionics" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, this model regains D3 lost wounds.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb5a-2f31-b730-9b32::2969-1698-f489-c6dc" name="Master of Machines (Dominus)" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase this model can repair a single friendly &lt;FORGE WORLD&gt; or QUESTOR MECHANICUS model within 3&quot; (but not itself). If the model being repaired is a &lt;FORGE WORLD&gt; model, it regains D3 lost wounds; if it is a QUESTOR MECHANNICUS model, it regains 1 lost wound. A model may not be the target of the Master of Machines ability more than once per turn.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fb5a-2f31-b730-9b32::cb5a-41d2-bba7-3a05::ea42-0a85-6f73-d867" name="Refractor Field" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Model/Unit has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="60ea-0df7-f8ed-6104" name="Omnissian Axe" entryId="fb5a-2f31-b730-9b32::de1b-c75c-26a1-5ca7::d97f-3755-f0cf-7e5f" number="1" type="upgrade">
+              <profiles>
+                <profile id="fb5a-2f31-b730-9b32::de1b-c75c-26a1-5ca7::2387-9bcb-e799-0996" name="Omnissian Axe" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8d8b-7ffd-8b86-ff02" name="Volkite Blaster" entryId="fb5a-2f31-b730-9b32::3cfb-b4d3-8b29-44bb::0a8a-2f6d-2507-f330" entryGroupId="fb5a-2f31-b730-9b32::abca-3294-da99-a835" number="1" type="upgrade">
+              <profiles>
+                <profile id="fb5a-2f31-b730-9b32::3cfb-b4d3-8b29-44bb::eaec-7743-1d92-7688" name="Volkite Blaster" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 3</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, the target suffers a mortal wound in addition to any other damage.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="8.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ff98-5fd1-4786-310b" name="Macrostubber" entryId="fb5a-2f31-b730-9b32::405d-f5ed-acf4-4d41::d590-f332-a5f8-210b" entryGroupId="fb5a-2f31-b730-9b32::285c-cca2-da43-6fb5" number="1" type="upgrade">
+              <profiles>
+                <profile id="fb5a-2f31-b730-9b32::405d-f5ed-acf4-4d41::cbff-039c-28cb-7bc9" name="Macrostubber" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 5</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="80.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a4e0-77d3-fe15-f7fe" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="f36c-b15e-6459-7c14" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="d692-e1df-c26a-0724" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
+            <category id="85da-9d1a-5008-0e3f" name="Dominus" entryId="e4c1-ea70-18cd-6caf" primary="false"/>
+            <category id="2c1c-f8ba-e0da-8b23" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
+            <category id="525c-32ee-8008-a861" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="6ddc-6ad6-22cd-19a9" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="879b-3c6f-83df-9298" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="a973-48a5-de22-f7c5" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a78a-6d40-da36-bcce" name="Tech-Priest Enginseer" entryId="277f-49b1-9257-87f6::1aaa-d901-e93c-78b5" publicationId="ebe8-544e-pubN93714" page="75" number="1" type="unit">
+          <rules>
+            <rule id="277f-49b1-9257-87f6::0446-3996-6b60-8528::ad49-5c00-b6ea-2ac7" name="Canticles of the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false">
+              <description>All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
+
+At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
+
+Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table below. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.
+
+If you have a Battle-forged army, units only receive the bonus if every model in their Detachment has this ability.
+
+1. Incantation of the Iron Soul:
+You can re-roll failed Morale tests for affected units.
+
+2. Litany of the Electromancer:
+Roll a D6 for each enemy unit that is within 1&quot; of any affected units; on a roll of 6, the unit being rolled for suffers D3 mortal wounds.   
+
+3. Chant of the Remorseless Fist:
+You can re-roll any failed hit rolls of 1 for affected units in the Fight phase.   
+
+4. Shroudpsalm:
+Affected units gain the bonus to their armour saving throws as if they were in cover. Units already in cover are unaffected. 
+
+5. Invocation of Machine Might:
+Affected units have +1 Strength. 
+
+6. Benediction of the Omnissiah:
+You can re-roll failed hit rolls of 1 for affected units in the shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="277f-49b1-9257-87f6::d532-8f9c-e51c-c55f" name="Tech-Priest Enginseer" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+                <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
+                <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="277f-49b1-9257-87f6::0ed9-2c1d-f7b3-e221" name="Master of Machines (Engiseer)" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase this model can repair a single friendly &lt;FORGE WORLD&gt; VEHICLE, ASTRA MILITARUM VEHICLE or QUESTOR MECHANICUS model within 3&quot;. If the model being repaired is a &lt;FORGE WORLD&gt; or ASTRA MILITARUM model, it regains D3 lost wounds; if it is a QUESTOR MECHANICUS model, it regains 1 lost wound. A model may not be the target of the Master of Machines ability more than once per turn.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="277f-49b1-9257-87f6::40f1-bcc5-8f3e-d6cd::d060-09ec-5fdb-2f06" name="Bionics" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models in this unit have a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="94d8-b8e0-1b27-9c42" name="Servo-arm" entryId="277f-49b1-9257-87f6::a337-6ae9-c966-611b::61ae-3901-0a79-4ec9" number="1" type="upgrade">
+              <profiles>
+                <profile id="277f-49b1-9257-87f6::a337-6ae9-c966-611b::d471-58e2-7035-8849::9112-c49a-ee46-0f81" name="Servo-arm" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each servo-arm can only be used to make one attack each time this model fights. When a model attacks with this weapon, you must subtract 1 from the hit roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f3ef-8860-4745-58c2" name="Omnissian Axe" entryId="277f-49b1-9257-87f6::ab4a-531c-00bc-0236::d97f-3755-f0cf-7e5f" number="1" type="upgrade">
+              <profiles>
+                <profile id="277f-49b1-9257-87f6::ab4a-531c-00bc-0236::2387-9bcb-e799-0996" name="Omnissian Axe" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="723c-e028-a9bf-aa67" name="Laspistol" entryId="277f-49b1-9257-87f6::7731-bbf0-6f31-d704::d500-dddf-7492-d5b1" number="1" type="upgrade">
+              <profiles>
+                <profile id="277f-49b1-9257-87f6::7731-bbf0-6f31-d704::844b-6640-5580-8590" name="Laspistol" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a21d-ba51-458d-3f17" name="Tech-Priest" entryId="6743-7925-6ec5-6b91" primary="false"/>
+            <category id="04d9-205c-3b95-35ba" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="fef8-8e74-1569-877c" name="Enginseer" entryId="0775-0dfb-b8c2-f2b0" primary="false"/>
+            <category id="9b65-d6ae-378a-eda3" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="6f16-f1b9-b8ba-9dd8" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="fed9-ceb6-ef4b-35de" name="Faction: Cult Mechanicus" entryId="6bb8-fe7f-7918-bf8f" primary="false"/>
+            <category id="bbbb-ea0b-d4d1-01b7" name="Character" entryId="ef18-746a-369f-43a4" primary="false"/>
+            <category id="6dba-39a5-3613-a89f" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+            <category id="b82c-5f3b-cd8d-dd87" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7168-c36d-81b9-ba2e" name="Skitarii Rangers" entryId="6e02-98e6-5e5d-6f85::ba77-6fd9-7474-7095" publicationId="ebe8-544e-pubN93714" page="75" number="1" type="unit">
+          <rules>
+            <rule id="6e02-98e6-5e5d-6f85::1860-3837-7cf4-ece2::ad49-5c00-b6ea-2ac7" name="Canticles of the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false">
+              <description>All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
+
+At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
+
+Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table below. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.
+
+If you have a Battle-forged army, units only receive the bonus if every model in their Detachment has this ability.
+
+1. Incantation of the Iron Soul:
+You can re-roll failed Morale tests for affected units.
+
+2. Litany of the Electromancer:
+Roll a D6 for each enemy unit that is within 1&quot; of any affected units; on a roll of 6, the unit being rolled for suffers D3 mortal wounds.   
+
+3. Chant of the Remorseless Fist:
+You can re-roll any failed hit rolls of 1 for affected units in the Fight phase.   
+
+4. Shroudpsalm:
+Affected units gain the bonus to their armour saving throws as if they were in cover. Units already in cover are unaffected. 
+
+5. Invocation of Machine Might:
+Affected units have +1 Strength. 
+
+6. Benediction of the Omnissiah:
+You can re-roll failed hit rolls of 1 for affected units in the shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6e02-98e6-5e5d-6f85::6c9b-ba19-9123-406b::d060-09ec-5fdb-2f06" name="Bionics" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models in this unit have a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="94b9-6b78-df4e-c7d0" name="Ranger Alpha" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::801e-a46d-3fee-4d16" number="1" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::bb5d-0688-1d61-9032" name="Ranger Alpha" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="e7c5-d5e7-a45f-c9d6" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::0063-1fab-3a4c-cbc0" entryGroupId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::6f38-c004-7fd2-5029" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::ee86-16e1-a121-fdd4::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="6c33-7884-da4a-5d10" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="db02-50ef-b572-1d26" name="Skitarii Ranger" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::f293-2f3c-5067-61bc" entryGroupId="6e02-98e6-5e5d-6f85::5ec2-817e-c2d8-bb63" number="4" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::4665-9a97-7cff-0fb7::195a-45af-3c65-5785" name="Skitarii Ranger" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="85bd-6204-7f9d-197a" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::dd61-f5fb-5f08-66cf" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::90c8-0ac8-a05d-df86::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ef78-34e9-be85-7a3f" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="4fae-df95-539b-8d1b" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="4e3b-b3d4-5e65-f80e" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="fa40-9f45-6bcf-b235" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="5550-0ffe-13af-f1bf" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="25b8-c002-ae6f-284f" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+            <category id="d294-81f4-7b66-ffcd" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="a652-d1f0-32b4-43db" name="Skitarii Rangers" entryId="6e02-98e6-5e5d-6f85::ba77-6fd9-7474-7095" publicationId="ebe8-544e-pubN93714" page="75" number="1" type="unit">
+          <rules>
+            <rule id="6e02-98e6-5e5d-6f85::1860-3837-7cf4-ece2::ad49-5c00-b6ea-2ac7" name="Canticles of the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false">
+              <description>All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
+
+At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
+
+Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table below. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.
+
+If you have a Battle-forged army, units only receive the bonus if every model in their Detachment has this ability.
+
+1. Incantation of the Iron Soul:
+You can re-roll failed Morale tests for affected units.
+
+2. Litany of the Electromancer:
+Roll a D6 for each enemy unit that is within 1&quot; of any affected units; on a roll of 6, the unit being rolled for suffers D3 mortal wounds.   
+
+3. Chant of the Remorseless Fist:
+You can re-roll any failed hit rolls of 1 for affected units in the Fight phase.   
+
+4. Shroudpsalm:
+Affected units gain the bonus to their armour saving throws as if they were in cover. Units already in cover are unaffected. 
+
+5. Invocation of Machine Might:
+Affected units have +1 Strength. 
+
+6. Benediction of the Omnissiah:
+You can re-roll failed hit rolls of 1 for affected units in the shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6e02-98e6-5e5d-6f85::6c9b-ba19-9123-406b::d060-09ec-5fdb-2f06" name="Bionics" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models in this unit have a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8c9e-f9b2-4001-7a25" name="Ranger Alpha" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::801e-a46d-3fee-4d16" number="1" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::bb5d-0688-1d61-9032" name="Ranger Alpha" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b30d-b2e6-b37d-4929" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::0063-1fab-3a4c-cbc0" entryGroupId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::6f38-c004-7fd2-5029" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::ee86-16e1-a121-fdd4::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="8039-9581-1e4e-ad45" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="4d91-85ab-b9aa-647b" name="Skitarii Ranger" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::f293-2f3c-5067-61bc" entryGroupId="6e02-98e6-5e5d-6f85::5ec2-817e-c2d8-bb63" number="4" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::4665-9a97-7cff-0fb7::195a-45af-3c65-5785" name="Skitarii Ranger" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="a98a-5eba-afd8-18da" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::dd61-f5fb-5f08-66cf" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::90c8-0ac8-a05d-df86::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="9853-b1df-5bb1-d14d" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="e3fb-45c7-9cf5-0f20" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="2472-063e-bc28-ac21" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="7052-ea25-9e8e-3953" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="a0e7-54e0-c861-1284" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="bdd3-a0b2-74ca-fc54" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+            <category id="a8cf-20a8-6224-1150" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="187b-5b26-a681-08ca" name="Skitarii Rangers" entryId="6e02-98e6-5e5d-6f85::ba77-6fd9-7474-7095" publicationId="ebe8-544e-pubN93714" page="75" number="1" type="unit">
+          <rules>
+            <rule id="6e02-98e6-5e5d-6f85::1860-3837-7cf4-ece2::ad49-5c00-b6ea-2ac7" name="Canticles of the Omnissiah" publicationId="ebe8-544e-pubN65537" hidden="false">
+              <description>All units with this ability gain a bonus during the battle depending on the Canticle of the Omnissiah currently being canted.
+
+At the start of each battle round, pick which Canticle of the Omnissiah from the table below is in effect for the duration of the battle round. The same Canticle may not be picked twice during the same battle. 
+
+Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table below. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.
+
+If you have a Battle-forged army, units only receive the bonus if every model in their Detachment has this ability.
+
+1. Incantation of the Iron Soul:
+You can re-roll failed Morale tests for affected units.
+
+2. Litany of the Electromancer:
+Roll a D6 for each enemy unit that is within 1&quot; of any affected units; on a roll of 6, the unit being rolled for suffers D3 mortal wounds.   
+
+3. Chant of the Remorseless Fist:
+You can re-roll any failed hit rolls of 1 for affected units in the Fight phase.   
+
+4. Shroudpsalm:
+Affected units gain the bonus to their armour saving throws as if they were in cover. Units already in cover are unaffected. 
+
+5. Invocation of Machine Might:
+Affected units have +1 Strength. 
+
+6. Benediction of the Omnissiah:
+You can re-roll failed hit rolls of 1 for affected units in the shooting phase.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6e02-98e6-5e5d-6f85::6c9b-ba19-9123-406b::d060-09ec-5fdb-2f06" name="Bionics" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All models in this unit have a 6+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="1d4d-2863-e1eb-3625" name="Ranger Alpha" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::801e-a46d-3fee-4d16" number="1" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::bb5d-0688-1d61-9032" name="Ranger Alpha" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="0a12-f4da-a0af-1429" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::0063-1fab-3a4c-cbc0" entryGroupId="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::6f38-c004-7fd2-5029" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::8672-d789-aa6f-6c57::4dac-c120-1052-eebd::ee86-16e1-a121-fdd4::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="7.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="66d4-8b5c-02f3-1653" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="cb4b-2531-75ce-00e5" name="Skitarii Ranger" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::f293-2f3c-5067-61bc" entryGroupId="6e02-98e6-5e5d-6f85::5ec2-817e-c2d8-bb63" number="4" type="model">
+              <profiles>
+                <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::4665-9a97-7cff-0fb7::195a-45af-3c65-5785" name="Skitarii Ranger" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="8004-3b5c-b9f7-7574" name="Galvanic Rifle" entryId="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::dd61-f5fb-5f08-66cf" number="4" type="upgrade">
+                  <profiles>
+                    <profile id="6e02-98e6-5e5d-6f85::4d13-e725-b411-455e::0721-2a46-cec3-8e4d::90c8-0ac8-a05d-df86::98dc-754a-8328-5376" name="Galvanic Rifle" publicationId="ebe8-544e-pubN65537" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">30&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -1.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="points" value="28.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="9ca7-9ce6-d9cc-128b" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+            <category id="9adb-65a7-0c80-cc09" name="Faction: &lt;Forge World&gt;" entryId="dfde-d915-6e58-09af" primary="false"/>
+            <category id="5774-4539-bccc-3007" name="Faction: Adeptus Mechanicus" entryId="ca27-5069-1c2c-a28b" primary="false"/>
+            <category id="1828-242b-8f51-882c" name="Faction: Skitarii" entryId="cdee-83f1-5387-56cc" primary="false"/>
+            <category id="c5e5-f73b-0b52-ea39" name="Infantry" entryId="3d52-fccf-10c0-3fae" primary="false"/>
+            <category id="37dc-233d-abbd-a78e" name="Skitarii Rangers" entryId="768d-d42c-e62a-fb21" primary="false"/>
+            <category id="37b3-2190-6f78-d77f" name="Faction: Imperium" entryId="84e2-9fa9-ebe6-1d18" primary="false"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="28ec-711c-pubN91434" name="Imperial Armour - Index: Astra Militarum"/>
+        <publication id="ebe8-544e-pubN95454" name="Chapter Approved"/>
+        <publication id="82b3-73d0-72b2-3180" name="Big FAQ Spring 2019"/>
+        <publication id="28ec-711c-pubN118636" name="Warhammer 40,000"/>
+        <publication id="28ec-711c-pubN97206" name="warhammer_40000_termite_assault_drill_en-2.pdf"/>
+        <publication id="28ec-711c-pubN118139" name="Index: Xenos 2"/>
+        <publication id="ebe8-544e-pubN79743" name="Warhammer 40,000: The Rules"/>
+        <publication id="ebe8-544e-pubN93714" name="Codex: Adeptus Mechaincus"/>
+        <publication id="28ec-711c-pubN110734" name="BRB"/>
+        <publication id="ebe8-544e-pubN65537" name="Codex: Adeptus Mechanicus"/>
+        <publication id="ebe8-544e-pubN79295" name="Forgeworld Datasheet"/>
+        <publication id="28ec-711c-pubN110542" name="White Dwarf Feb 2019"/>
+        <publication id="28ec-711c-pubN72690" name="Warhammer 40,000: Rulebook"/>
+        <publication id="28ec-711c-pubN78977" name="Index: Imperium 1"/>
+        <publication id="28ec-711c-pubN98266" name="Vigilus Defiant"/>
+        <publication id="28ec-711c-pubN113754" name="Stronghold Assault"/>
+        <publication id="28ec-711c-pubN81893" name="Index: Imperium"/>
+        <publication id="ebe8-544e-pubN67401" name="Imperium Index 2"/>
+        <publication id="28ec-711c-pubN77581" name="Index: Imperium 2"/>
+        <publication id="28ec-711c-pubN77330" name="Planetary Onslaught"/>
+        <publication id="2ec0-6d53-e36b-9895" name="Chapter Approved 2018"/>
+        <publication id="28ec-711c-pubN73170" name="Chapter Approved 2017"/>
+      </publications>
+      <categories>
+        <category id="1da7-1b20-22b7-c7fe" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="44a5-482f-6890-2d2e" name="No Force Org Slot" entryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="false"/>
+        <category id="46eb-6d07-56a0-6ae7" name="HQ" entryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <category id="ec2d-561f-742f-9322" name="Troops" entryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <category id="1756-0c43-eaa8-5117" name="Elites" entryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <category id="837b-aafe-39fd-cde9" name="Fast Attack" entryId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+        <category id="8146-83b2-8ea3-c1e9" name="Heavy Support" entryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <category id="f059-8e1d-3593-e27d" name="Flyer" entryId="e888-1504-aa61-95ff" primary="false"/>
+        <category id="052e-ac73-201a-9e67" name="Dedicated Transport" entryId="1b66-3f5f-6705-079a" primary="false"/>
+        <category id="a488-4351-175e-4fce" name="Warlord" entryId="ae09-117e-a6fa-316b" primary="false"/>
+        <category id="b825-c3d2-d6f5-acc1" name="Relic Elites" entryId="8d86-9490-0f7d-a5b5" primary="false"/>
+        <category id="110e-592c-4c1e-88f4" name="Relic Heavy Support" entryId="6c4c-a416-b8cb-c380" primary="false"/>
+        <category id="5939-2ab8-45d5-ad93" name="Relic HQ" entryId="655f-e142-dfa9-11a4" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

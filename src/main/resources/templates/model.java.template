@@ -1,0 +1,53 @@
+package com.gcd.w40k.tableunits.generated.${package.name};
+
+import com.gcd.w40k.equipment.Weapon;
+import com.gcd.w40k.resolvers.save.Save;
+import com.gcd.w40k.tableunits.Model;
+import com.gcd.w40k.tableunits.HollowModelException;
+
+public class ${model.classname} extends Model {
+
+    public ${model.classname}() {
+        throw new HollowModelException();
+    }
+
+    @Override
+    public String getDescription() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public int getWeaponSkill() {
+        return ${model.ws};
+    }
+
+    @Override
+    public int getBallisticSkill() {
+        return ${model.bs};
+    }
+
+    @Override
+    public int getToughness() {
+        return ${model.toughness};
+    }
+
+    @Override
+    public int getMaximumHitPoints() {
+        return ${model.hp};
+    }
+
+    @Override
+    public Save getSave() {
+        return Save.builder().withNormalSave(${model.save}).build();
+    }
+
+    @Override
+    protected Weapon[] getRangedWeapons() {
+        return new Weapon[0];
+    }
+
+    @Override
+    public int getPointCost() {
+        throw new UnsupportedOperationException();
+    }
+}
